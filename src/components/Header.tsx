@@ -54,7 +54,7 @@ const Header: React.FC = () => {
               isScrolled ? 'text-indigo-700' : 'text-white'
             }`}
           >
-            SeuPsico
+            <img src="/images/seupsico_transparent.png" alt="Logo SeuPsico" width="150" height="100" />
           </a>
 
           {/* Desktop Navigation */}
@@ -86,7 +86,7 @@ const Header: React.FC = () => {
             >
               Depoimentos
             </a>
-            <a
+            {/* <a
               href="#precos"
               className={`hover:text-indigo-600 transition-colors ${
                 isScrolled ? 'text-gray-700' : 'text-white hover:text-white/80'
@@ -94,7 +94,7 @@ const Header: React.FC = () => {
               onClick={handleNavClick}
             >
               Preços
-            </a>
+            </a> */}
            <Button
               variant={isScrolled ? 'primary' : 'outline'}
               size="sm"
@@ -143,13 +143,13 @@ const Header: React.FC = () => {
               >
                 Depoimentos
               </a>
-              <a
+              {/* <a
                 href="#precos"
                 className="text-gray-700 hover:text-indigo-600 transition-colors py-2"
                 onClick={handleNavClick}
               >
                 Preços
-              </a>
+              </a> */}
               <Button
                 variant="primary"
                 size="sm"
